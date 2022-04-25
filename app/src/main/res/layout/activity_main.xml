@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:weightSum="9"
+    tools:context=".MainActivity"
+    android:paddingTop="50dp">
+
+
+
+    <EditText
+        android:id="@+id/e7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:height="0dp"
+        android:background="#FFEB3B"
+        android:drawableLeft="@drawable/experience"
+        android:ems="10"
+
+        android:hint="Unique ID"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:height="0dp"
+        android:background="#FFEB3B"
+        android:drawableLeft="@drawable/person"
+        android:ems="10"
+
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:height="0dp"
+        android:background="#FFEB3B"
+        android:drawableLeft="@drawable/email"
+        android:ems="10"
+
+        android:hint="  Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:height="0dp"
+        android:background="#FFEB3B"
+        android:drawableLeft="@drawable/call"
+        android:ems="10"
+
+        android:hint="  Whatsapp Number"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:height="0dp"
+        android:background="#FFEB3B"
+        android:drawableLeft="@drawable/description"
+        android:ems="10"
+
+        android:hint="  Description"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/e5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:height="0dp"
+        android:background="#FFEB3B"
+        android:drawableLeft="@drawable/degree"
+        android:ems="10"
+
+        android:hint="    Qualification"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/e6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:height="0dp"
+        android:background="#FFEB3B"
+        android:drawableLeft="@drawable/skills"
+        android:ems="10"
+
+        android:hint="   Skills"
+        android:inputType="textPersonName"
+        android:paddingLeft="6dp"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:height="0dp"
+            android:background="#FFC107"
+            android:text="ADD DATA"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:height="0dp"
+            android:background="#FFC107"
+            android:text="VIEW"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:height="0dp"
+            android:background="#FFC107"
+            android:text="UPDATE"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
